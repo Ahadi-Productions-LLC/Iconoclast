@@ -136,7 +136,7 @@
         "desc": "A swordswoman from the far west. She's brash, aggressive, and has grown up in the Chain.",
         "variant": null,
         "level": 3,
-        "klass": "Mercenary",
+        "klass": "Mercenary_F",
         "tags": [],
         "bases": {
             "LCK": 3,
@@ -180,7 +180,7 @@
                 false
             ],
             [
-                "Toxin_Lance",
+                "Poison_Sword",
                 false
             ]
         ],
@@ -273,7 +273,8 @@
         "level": 1,
         "klass": "WyvernCaptain",
         "tags": [
-            "Lord"
+            "Lord",
+            "Mounted"
         ],
         "bases": {
             "HP": 22,
@@ -325,7 +326,12 @@
                 true
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -397,7 +403,7 @@
     {
         "nid": "Yazid",
         "name": "Yazid",
-        "desc": "An elder artilleryman in the chain, trusted by no-one. ",
+        "desc": "An cynical elder artilleryman in the chain, trusted by few. ",
         "variant": "",
         "level": 5,
         "klass": "Cannoneer",
@@ -5652,7 +5658,7 @@
         },
         "starting_items": [
             [
-                "Elfire",
+                "Lightning",
                 false
             ],
             [
@@ -5662,7 +5668,13 @@
         ],
         "learned_skills": [],
         "unit_notes": [],
-        "wexp_gain": {},
+        "wexp_gain": {
+            "Anima": [
+                false,
+                71,
+                null
+            ]
+        },
         "alternate_classes": [],
         "portrait_nid": "Moloch Sorcerer {Damo}",
         "affinity": null,

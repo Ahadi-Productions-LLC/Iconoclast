@@ -1568,7 +1568,7 @@
                 251
             ],
             "Lance": [
-                true,
+                false,
                 0,
                 251
             ],
@@ -8963,7 +8963,7 @@
                 null
             ],
             "Cannon": [
-                true,
+                false,
                 0,
                 null
             ],
@@ -8973,7 +8973,7 @@
                 null
             ],
             "Musket": [
-                true,
+                false,
                 0,
                 null
             ],

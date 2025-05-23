@@ -469,6 +469,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "remove_group;EnemyRein",
             ""
         ],
         "nid": "1 Intro"
@@ -2822,5 +2823,18 @@
             "wait;500"
         ],
         "nid": "2 OnLevelSelect"
+    },
+    {
+        "name": "Enemy Reinforcements",
+        "trigger": "enemy_turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_group;EnemyRein"
+        ],
+        "nid": "1 Enemy Reinforcements"
     }
 ]

@@ -136,7 +136,7 @@
     {
         "nid": "1",
         "name": "Ch. 1: Escape!",
-        "tilemap": "Prologue_1",
+        "tilemap": "Chapter 1_1",
         "bg_tilemap": null,
         "party": "Talib",
         "music": {
@@ -167,8 +167,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    11,
-                    7
+                    5,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -180,8 +180,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    9,
-                    6
+                    5,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -193,8 +193,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    6
+                    5,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -206,8 +206,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    8
+                    4,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -219,8 +219,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    8
+                    6,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -230,7 +230,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Sword_Bonewalker",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Iron_Sword",
@@ -239,12 +239,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    4
+                    3,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -254,7 +254,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Sword_Bonewalker",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Iron_Sword",
@@ -263,10 +263,13 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    7,
+                    12
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -275,7 +278,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Sword_Bonewalker",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Iron_Sword",
@@ -284,7 +287,28 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 1,
+                "klass": "Sword_Bonewalker",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -296,7 +320,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Bow_Bonewalker",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Iron_Bow",
@@ -305,12 +329,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    5
+                    2,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -320,7 +344,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Bow_Bonewalker",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Iron_Bow",
@@ -329,10 +353,13 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    8,
+                    9
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -341,7 +368,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Bow_Bonewalker",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Iron_Bow",
@@ -350,7 +377,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -434,9 +461,32 @@
                 "units": [
                     "Archtree",
                     "101",
-                    "103"
+                    "103",
+                    "102",
+                    "104"
                 ],
-                "positions": {}
+                "positions": {
+                    "101": [
+                        4,
+                        12
+                    ],
+                    "103": [
+                        2,
+                        9
+                    ],
+                    "102": [
+                        6,
+                        12
+                    ],
+                    "104": [
+                        8,
+                        9
+                    ],
+                    "Archtree": [
+                        5,
+                        4
+                    ]
+                }
             },
             {
                 "nid": "Rein",
@@ -446,12 +496,24 @@
             {
                 "nid": "EnemyRein",
                 "units": [
-                    "102",
                     "105",
-                    "104",
-                    "106"
+                    "106",
+                    "107"
                 ],
-                "positions": {}
+                "positions": {
+                    "106": [
+                        5,
+                        2
+                    ],
+                    "105": [
+                        2,
+                        4
+                    ],
+                    "107": [
+                        8,
+                        4
+                    ]
+                }
             },
             {
                 "nid": "EirikaSeth",

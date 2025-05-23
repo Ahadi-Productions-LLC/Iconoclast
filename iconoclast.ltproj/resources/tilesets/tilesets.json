@@ -110,5 +110,15 @@
         "nid": "Iconoclast Prolog Map Reference",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "[A] Green map Preview",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "2. Temple - Tileset Object Palette (Green) {Zarg}",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
