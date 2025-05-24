@@ -1,0 +1,83 @@
+[
+    {
+        "nid": "Rapier",
+        "name": "Rapier",
+        "desc": "Eirika Only, effective against horseback and armoured units",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "prf_unit",
+                [
+                    "Eirika"
+                ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Horse",
+                        "Armor"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 14,
+                    "show_effectiveness_flash": true
+                }
+            ]
+        ]
+    }
+]

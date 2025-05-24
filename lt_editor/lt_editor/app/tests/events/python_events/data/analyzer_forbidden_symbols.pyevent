@@ -1,0 +1,6 @@
+#pyev1
+
+# we cannot allow the user to enter this string in any form
+__COMMAND_SENTINEL
+__COMMAND_SENTINEL__
+"__COMMAND_SENTINEL"

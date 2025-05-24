@@ -1,0 +1,21 @@
+[
+    {
+        "nid": "raw_data",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "lovalue": [
+            {
+                "nid": "a",
+                "field_1": "f1",
+                "field_2": "f2"
+            }
+        ],
+        "oattrs": [
+            "nid",
+            "field_1",
+            "field_2",
+            "field_3"
+        ]
+    }
+]

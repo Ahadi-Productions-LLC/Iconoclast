@@ -1,0 +1,103 @@
+[
+    {
+        "nid": "Seth",
+        "name": "Seth",
+        "desc": "A young commander of Renais.\nHe's calm, composed, and skilled.",
+        "variant": null,
+        "level": 1,
+        "klass": "Paladin",
+        "tags": [],
+        "bases": {
+            "HP": 30,
+            "STR": 14,
+            "MAG": 7,
+            "SKL": 13,
+            "SPD": 12,
+            "LCK": 13,
+            "DEF": 11,
+            "CON": 11,
+            "MOV": 8,
+            "RES": 8
+        },
+        "growths": {
+            "HP": 90,
+            "STR": 50,
+            "MAG": 25,
+            "SKL": 45,
+            "SPD": 45,
+            "LCK": 25,
+            "DEF": 40,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 30
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Steel_Sword",
+                false
+            ],
+            [
+                "Silver_Lance",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                181,
+                251
+            ],
+            "Lance": [
+                true,
+                181,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Seth",
+        "affinity": "Anima",
+        "fields": []
+    }
+]

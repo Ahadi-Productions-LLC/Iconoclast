@@ -1,0 +1,4 @@
+#pyev1
+
+# cannot use yields otherwise everything goes sideways
+yield 1

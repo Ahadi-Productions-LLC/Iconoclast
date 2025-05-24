@@ -1,0 +1,457 @@
+# Chinese (Simplified, China) translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-11-21 19:01+0800\n"
+"PO-Revision-Date: 2022-11-17 22:26-0600\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: app/editor/base_database_gui.py:59
+msgid "Import Legacy data file..."
+msgstr "从原始数据导入..."
+
+#: app/editor/base_database_gui.py:64
+msgid "Import from csv data file..."
+msgstr "从CSV导入..."
+
+#: app/editor/base_database_gui.py:69
+msgid "Copy to clipboard"
+msgstr "复制"
+
+#: app/editor/base_database_gui.py:72
+msgid "Paste from clipboard"
+msgstr "粘贴"
+
+#: app/editor/base_database_gui.py:159
+#, python-format
+msgid "%s Editor"
+msgstr "%s 编辑器"
+
+#: app/editor/class_editor/class_properties.py:56
+#: app/editor/component_properties.py:45
+#: app/editor/party_editor/party_properties.py:21
+#: app/editor/stat_editor/stat_properties.py:21
+#: app/editor/terrain_editor/terrain_properties.py:38
+#: app/editor/unit_editor/unit_properties.py:143
+#: app/editor/weapon_editor/weapon_properties.py:35
+msgid "Unique ID"
+msgstr "唯一标识"
+
+#: app/editor/class_editor/class_properties.py:61
+#: app/editor/component_properties.py:50
+#: app/editor/party_editor/party_properties.py:26
+#: app/editor/stat_editor/stat_properties.py:26
+#: app/editor/terrain_editor/terrain_properties.py:43
+#: app/editor/unit_editor/unit_properties.py:148
+#: app/editor/weapon_editor/weapon_properties.py:40
+msgid "Display Name"
+msgstr "名称"
+
+#: app/editor/class_editor/class_properties.py:66
+#: app/editor/component_properties.py:59
+#: app/editor/stat_editor/stat_properties.py:37
+#: app/editor/unit_editor/unit_properties.py:160
+msgid "Description"
+msgstr "描述"
+
+#: app/editor/constant_tab.py:63
+msgid "Combat Experience Equation:"
+msgstr "战斗经验公式："
+
+#: app/editor/constant_tab.py:68
+msgid "Exp Formula Type"
+msgstr "经验公式类型"
+
+#: app/editor/constant_tab.py:125
+msgid " * (<b>Level Difference</b> + "
+msgstr " * (<b>等级差</b> + "
+
+#: app/editor/constant_tab.py:175
+msgid "Minimum exp from hit: <b>(MinExp)</b>"
+msgstr "命中时最低经验： <b>(MinExp)</b>"
+
+#: app/editor/constant_tab.py:176
+msgid "Maximum exp from hit: <b>(MaxExp)</b>"
+msgstr "命中时最大经验： <b>(MaxExp)</b>"
+
+#: app/editor/constant_tab.py:177
+msgid "How quickly exp rises or drops off from par: <b>(Slope)</b>"
+msgstr ""
+
+#: app/editor/constant_tab.py:178
+msgid "Par exp earned in combat between same level units: <b>(Intercept)</b>"
+msgstr ""
+
+#: app/editor/constant_tab.py:181
+msgid "<b>Magnitude</b> = <b>MaxExp</b> - <b>MinExp</b>"
+msgstr ""
+
+#: app/editor/constant_tab.py:182
+msgid ""
+"<b>Offset</b> = log(-log((<b>Intercept</b> - <b>MinExp</b>) / "
+"<b>Magnitude</b>)) / <b>Slope</b>"
+msgstr ""
+
+#: app/editor/constant_tab.py:183
+msgid ""
+"<b>Exp</b> = <b>MinExp</b> + <b>Magnitude</b> * e ^ (-e ^ (<b>-Slope</b> "
+"* (<b>Level Diff</b> - <b>Offset</b>)))"
+msgstr ""
+
+#: app/editor/constant_tab.py:200
+msgid "A level "
+msgstr "等级"
+
+#: app/editor/constant_tab.py:200
+msgid " unit fights a level "
+msgstr "的单位和等级"
+
+#: app/editor/constant_tab.py:200
+msgid " unit"
+msgstr "的单位战斗"
+
+#: app/editor/constant_tab.py:226
+msgid "Experience Gained: "
+msgstr "可获得经验："
+
+#: app/editor/main_editor.py:81
+msgid "LT Maker"
+msgstr "LT 制作者"
+
+#: app/editor/global_editor/global_editor.py:132 app/editor/main_editor.py:125
+#: app/editor/main_editor.py:297
+msgid "Edit"
+msgstr "编辑"
+
+#: app/editor/main_editor.py:191
+msgid "&New Project..."
+msgstr "&新建项目"
+
+#: app/editor/main_editor.py:193
+msgid "&Open Project..."
+msgstr "&打开项目"
+
+#: app/editor/main_editor.py:195
+msgid "&Save Project"
+msgstr "&保存项目"
+
+#: app/editor/main_editor.py:198
+msgid "Save Project As..."
+msgstr "&另存为项目"
+
+#: app/editor/main_editor.py:201
+msgid "&Quit"
+msgstr "&退出"
+
+#: app/editor/main_editor.py:209
+msgid "&Preferences..."
+msgstr "&首选项"
+
+#: app/editor/main_editor.py:210
+msgid "&About"
+msgstr "&关于"
+
+#: app/editor/main_editor.py:212
+msgid "Remove Unused Resources"
+msgstr "移除未使用资源"
+
+#: app/editor/main_editor.py:214
+msgid "Check for updates..."
+msgstr "检查更新"
+
+#: app/editor/main_editor.py:229
+msgid "Units"
+msgstr "角色"
+
+#: app/editor/main_editor.py:230
+msgid "Factions"
+msgstr ""
+
+#: app/editor/main_editor.py:231
+msgid "Parties"
+msgstr "阵营"
+
+#: app/editor/main_editor.py:232
+msgid "Classes"
+msgstr "职业"
+
+#: app/editor/class_editor/class_properties.py:102
+#: app/editor/main_editor.py:233
+msgid "Tags"
+msgstr "特性"
+
+#: app/editor/main_editor.py:234
+msgid "Game Vars"
+msgstr ""
+
+#: app/editor/main_editor.py:235
+msgid "Weapon Types"
+msgstr "武器类型"
+
+#: app/editor/main_editor.py:236
+msgid "Items"
+msgstr "道具"
+
+#: app/editor/main_editor.py:237
+msgid "Skills"
+msgstr "技能"
+
+#: app/editor/main_editor.py:239 app/editor/terrain_editor/terrain_tab.py:18
+msgid "Terrain"
+msgstr "地形"
+
+#: app/editor/main_editor.py:240
+msgid "Movement Costs"
+msgstr "地形阻碍"
+
+#: app/editor/class_editor/class_properties.py:114
+#: app/editor/main_editor.py:241 app/editor/unit_editor/unit_properties.py:190
+msgid "Stats"
+msgstr "参数"
+
+#: app/editor/main_editor.py:242
+msgid "Equations"
+msgstr "计算公式"
+
+#: app/editor/main_editor.py:243
+msgid "Constants"
+msgstr "游戏设置"
+
+#: app/editor/main_editor.py:244
+msgid "Difficulty Modes"
+msgstr "难度设置"
+
+#: app/editor/main_editor.py:245
+msgid "Supports"
+msgstr "支援对话"
+
+#: app/editor/main_editor.py:246
+msgid "Lore"
+msgstr ""
+
+#: app/editor/main_editor.py:247
+msgid "Raw Data"
+msgstr ""
+
+#: app/editor/main_editor.py:248
+msgid "Translations"
+msgstr "说明文字"
+
+#: app/editor/main_editor.py:286
+msgid "File"
+msgstr "文件"
+
+#: app/editor/main_editor.py:304 app/editor/main_editor.py:347
+msgid "Test"
+msgstr "运行"
+
+#: app/editor/main_editor.py:309
+msgid "Extra"
+msgstr "杂项"
+
+#: app/editor/main_editor.py:329
+msgid "Database"
+msgstr "数据库"
+
+#: app/editor/main_editor.py:338
+msgid "Resource"
+msgstr "资源"
+
+#: app/editor/class_editor/class_properties.py:72
+msgid "Movement Type"
+msgstr "行动类型"
+
+#: app/editor/class_editor/class_properties.py:77
+msgid "Tier"
+msgstr "位阶"
+
+#: app/editor/class_editor/class_properties.py:83
+msgid "Promotes From"
+msgstr "从...转职"
+
+#: app/editor/class_editor/class_properties.py:84
+#: app/editor/terrain_editor/terrain_properties.py:86
+msgid "None"
+msgstr "无"
+
+#: app/editor/class_editor/class_properties.py:88
+msgid "Max Level"
+msgstr "等级上限"
+
+#: app/editor/class_editor/class_properties.py:96
+msgid "Turns Into"
+msgstr "转职为..."
+
+#: app/editor/class_editor/class_properties.py:97
+msgid "Promotion Options..."
+msgstr "转职设定..."
+
+#: app/editor/class_editor/class_properties.py:103
+#: app/editor/unit_editor/unit_properties.py:179
+msgid "No tag"
+msgstr "无"
+
+#: app/editor/class_editor/class_properties.py:125
+msgid "Weapon Experience"
+msgstr "武器熟练度"
+
+#: app/editor/class_editor/class_properties.py:131
+#: app/editor/unit_editor/unit_properties.py:199
+msgid "level"
+msgstr "等级"
+
+#: app/editor/class_editor/class_properties.py:131
+#: app/editor/unit_editor/unit_properties.py:199
+msgid "skill_nid"
+msgstr "技能"
+
+#: app/editor/class_editor/class_properties.py:132
+msgid "Class Skills"
+msgstr "职业技能"
+
+#: app/editor/class_editor/class_properties.py:142
+msgid "Choose Map Sprite..."
+msgstr "选择地图图标..."
+
+#: app/editor/class_editor/class_properties.py:148
+msgid "Auto-assign map sprite with the same unique ID"
+msgstr "根据唯一标识自动匹配地图图标"
+
+#: app/editor/class_editor/class_properties.py:153
+msgid "Choose Combat Animation..."
+msgstr "选择战斗动画..."
+
+#: app/editor/class_editor/class_properties.py:160
+msgid "Auto-assign combat animation with the same unique ID"
+msgstr "根据唯一标识自动匹配战斗动画"
+
+#: app/editor/class_editor/class_tab.py:19
+msgid "Class"
+msgstr "职业"
+
+#: app/editor/class_editor/class_tab.py:35
+msgid "Import classes from class_info.xml"
+msgstr "从XML导入职业信息"
+
+#: app/editor/item_editor/item_tab.py:40
+msgid "Import items from items.xml"
+msgstr "从XML导入道具"
+
+#: app/editor/item_editor/item_tab.py:52
+msgid "Import items from csv"
+msgstr "从CSV导入道具"
+
+#: app/editor/party_editor/party_properties.py:31
+msgid "Leader Unit"
+msgstr "领导角色"
+
+#: app/editor/party_editor/party_tab.py:12
+msgid "Party"
+msgstr "阵营"
+
+#: app/editor/skill_editor/skill_tab.py:39
+msgid "Import skills from status.xml"
+msgstr "从XML导入技能"
+
+#: app/editor/stat_editor/stat_properties.py:31
+msgid "Maximum"
+msgstr "最大值"
+
+#: app/editor/stat_editor/stat_properties.py:41
+msgid "Position"
+msgstr "位置"
+
+#: app/editor/stat_editor/stat_properties.py:42
+msgid "hidden"
+msgstr "隐藏"
+
+#: app/editor/stat_editor/stat_properties.py:42
+msgid "left"
+msgstr "左"
+
+#: app/editor/stat_editor/stat_properties.py:42
+msgid "right"
+msgstr "右"
+
+#: app/editor/terrain_editor/terrain_properties.py:52
+msgid "Minimap Type"
+msgstr "小地图类型"
+
+#: app/editor/terrain_editor/terrain_properties.py:61
+msgid "Combat Platform Type"
+msgstr "战斗方块类型"
+
+#: app/editor/terrain_editor/terrain_properties.py:68
+msgid "Combat Background"
+msgstr "战斗背景"
+
+#: app/editor/terrain_editor/terrain_properties.py:85
+msgid "Status"
+msgstr "状态"
+
+#: app/editor/terrain_editor/terrain_tab.py:31
+msgid "Import terrain from terrain.xml"
+msgstr "从XML导入地形"
+
+#: app/editor/unit_editor/unit_properties.py:166
+msgid "Level"
+msgstr "等级"
+
+#: app/editor/unit_editor/unit_properties.py:178
+msgid "Personal Tags"
+msgstr "角色特性"
+
+#: app/editor/unit_editor/unit_properties.py:200
+msgid "Personal Skills"
+msgstr "个人技能"
+
+#: app/editor/unit_editor/unit_properties.py:222
+msgid "Starting Items"
+msgstr "持有物"
+
+#: app/editor/unit_editor/unit_tab.py:19
+msgid "Unit"
+msgstr "角色"
+
+#: app/editor/unit_editor/unit_tab.py:29
+msgid "Import units from units.xml"
+msgstr "从XML导入角色"
+
+#: app/editor/unit_editor/unit_tab.py:41
+msgid "Import units from csv"
+msgstr "从CSV导入角色"
+
+#: app/editor/weapon_editor/weapon_properties.py:47
+msgid "Force Melee Anim"
+msgstr "锁近战动画"
+
+#: app/editor/weapon_editor/weapon_properties.py:49
+msgid ""
+"Force this weapontype to use the melee animation at melee range, even "
+"with a ranged weapon. Ex. Javelins in GBA"
+msgstr "近战时锁定近战动画，例：GBA的投枪"
+
+#: app/editor/weapon_editor/weapon_properties.py:53
+msgid "Rank Bonus"
+msgstr "熟练度加成"
+
+#: app/editor/weapon_editor/weapon_properties.py:55
+msgid "Advantage versus"
+msgstr "有利相性"
+
+#: app/editor/weapon_editor/weapon_properties.py:56
+msgid "Disadvantage versus"
+msgstr "不利相性"
+

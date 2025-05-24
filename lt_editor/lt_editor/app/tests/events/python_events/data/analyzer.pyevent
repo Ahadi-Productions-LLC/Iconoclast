@@ -1,0 +1,22 @@
+#pyev1
+
+### NORMAL COMMANDS ###
+$speak "MU" "I am a custom named character."
+mu_name = game.get_unit("MU").name
+
+$speak "Seth" ("Princess %s!" % mu_name)
+$speak "MU" ("You've rescued me %d times" % v("TimesRescued"))
+
+if v("TimesRescued") == 9:
+    $speak "MU" "We should do this more often."
+elif v("TimesRescued") > 9:
+    $speak MU "A bit ridiculous, isn't it?"
+else:
+    $speak MU "Too few!"
+for unit_nid in ['Eirika', 'Seth']:
+    $speak unit_nid ("My name is %s" % unit_nid)
+
+### ERRONEOUS CODE ###
+def func_speak():
+  $speak "Eirika" "1"
+$not_a_command "Eirika"

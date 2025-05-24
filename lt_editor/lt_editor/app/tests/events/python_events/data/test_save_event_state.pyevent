@@ -1,0 +1,20 @@
+#pyev1
+
+$alert "FirstCommand"
+# SAVE_HERE
+$alert "SecondCommand"
+
+if v("SomeState"):
+    $alert "SomeStateTrueCommand"
+    $level_var "SomeState" False
+    # SAVE_HERE
+    $alert "ResumedAndStillSomeState"
+else:
+    $alert "ShouldNeverHappen"
+
+while v("WhileState"):
+    $alert "ExecutingWhile"
+    $level_var "WhileState" False
+    # SAVE_HERE
+    $alert "ResumedWhile"
+$alert "PreviousCommandsShouldOnlyBeCalledOnce"

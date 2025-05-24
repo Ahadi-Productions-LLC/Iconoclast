@@ -1,0 +1,17 @@
+#pyev1
+
+# this one is fine
+$battle_save
+
+# this one should fail
+for i in [1, 2, 3]:
+    $battle_save
+
+# this one should also fail
+for i in [1, 2, 3]:
+    $trigger_script 'Global save_in_trigger_script_in_for_loop'
+
+# these two are malformed trigger_scripts
+for i in [1, 2, 3]:
+    $trigger_script 'Global not_an_event'
+    $trigger_script variable_event

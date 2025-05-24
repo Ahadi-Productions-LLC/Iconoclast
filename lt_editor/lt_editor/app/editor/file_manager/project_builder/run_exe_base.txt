@@ -1,0 +1,7 @@
+import subprocess
+import os
+
+if __name__ == '__main__':
+    os.chdir('./__PROJECT_NAME__')
+    fname = '__PROJECT_NAME__.exe'
+    subprocess.Popen(fname, shell=True)

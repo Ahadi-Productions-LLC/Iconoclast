@@ -1,0 +1,22 @@
+# DO NOT MODIFY THIS FILE UNLESS YOU ARE MODIFYING `test_event_processor.py::test_conditional_handling`
+if;True
+#
+else
+#
+end
+
+# elif
+if;False
+    if;True
+    end
+elif;True
+    #
+else
+end
+
+
+# nested for
+if;True
+    for;d;[1, 2, 3]
+    endf
+end

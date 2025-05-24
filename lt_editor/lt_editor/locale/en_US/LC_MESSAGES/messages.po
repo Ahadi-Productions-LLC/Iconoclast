@@ -1,0 +1,496 @@
+# English (United States) translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-11-21 19:01+0800\n"
+"PO-Revision-Date: 2022-11-17 22:52-0600\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_US\n"
+"Language-Team: en_US <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: app/editor/base_database_gui.py:59
+msgid "Import Legacy data file..."
+msgstr ""
+
+#: app/editor/base_database_gui.py:64
+msgid "Import from csv data file..."
+msgstr ""
+
+#: app/editor/base_database_gui.py:69
+msgid "Copy to clipboard"
+msgstr ""
+
+#: app/editor/base_database_gui.py:72
+msgid "Paste from clipboard"
+msgstr ""
+
+#: app/editor/base_database_gui.py:159
+#, python-format
+msgid "%s Editor"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:56
+#: app/editor/component_properties.py:45
+#: app/editor/party_editor/party_properties.py:21
+#: app/editor/stat_editor/stat_properties.py:21
+#: app/editor/terrain_editor/terrain_properties.py:38
+#: app/editor/unit_editor/unit_properties.py:143
+#: app/editor/weapon_editor/weapon_properties.py:35
+msgid "Unique ID"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:61
+#: app/editor/component_properties.py:50
+#: app/editor/party_editor/party_properties.py:26
+#: app/editor/stat_editor/stat_properties.py:26
+#: app/editor/terrain_editor/terrain_properties.py:43
+#: app/editor/unit_editor/unit_properties.py:148
+#: app/editor/weapon_editor/weapon_properties.py:40
+msgid "Display Name"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:66
+#: app/editor/component_properties.py:59
+#: app/editor/stat_editor/stat_properties.py:37
+#: app/editor/unit_editor/unit_properties.py:160
+msgid "Description"
+msgstr ""
+
+#: app/editor/constant_tab.py:63
+msgid "Combat Experience Equation:"
+msgstr ""
+
+#: app/editor/constant_tab.py:68
+msgid "Exp Formula Type"
+msgstr ""
+
+#: app/editor/constant_tab.py:125
+msgid " * (<b>Level Difference</b> + "
+msgstr ""
+
+#: app/editor/constant_tab.py:175
+msgid "Minimum exp from hit: <b>(MinExp)</b>"
+msgstr ""
+
+#: app/editor/constant_tab.py:176
+msgid "Maximum exp from hit: <b>(MaxExp)</b>"
+msgstr ""
+
+#: app/editor/constant_tab.py:177
+msgid "How quickly exp rises or drops off from par: <b>(Slope)</b>"
+msgstr ""
+
+#: app/editor/constant_tab.py:178
+msgid "Par exp earned in combat between same level units: <b>(Intercept)</b>"
+msgstr ""
+
+#: app/editor/constant_tab.py:181
+msgid "<b>Magnitude</b> = <b>MaxExp</b> - <b>MinExp</b>"
+msgstr ""
+
+#: app/editor/constant_tab.py:182
+msgid ""
+"<b>Offset</b> = log(-log((<b>Intercept</b> - <b>MinExp</b>) / "
+"<b>Magnitude</b>)) / <b>Slope</b>"
+msgstr ""
+
+#: app/editor/constant_tab.py:183
+msgid ""
+"<b>Exp</b> = <b>MinExp</b> + <b>Magnitude</b> * e ^ (-e ^ (<b>-Slope</b> "
+"* (<b>Level Diff</b> - <b>Offset</b>)))"
+msgstr ""
+
+#: app/editor/constant_tab.py:200
+msgid "A level "
+msgstr ""
+
+#: app/editor/constant_tab.py:200
+msgid " unit fights a level "
+msgstr ""
+
+#: app/editor/constant_tab.py:200
+msgid " unit"
+msgstr ""
+
+#: app/editor/constant_tab.py:226
+msgid "Experience Gained: "
+msgstr ""
+
+#: app/editor/main_editor.py:81
+msgid "LT Maker"
+msgstr ""
+
+#: app/editor/global_editor/global_editor.py:132 app/editor/main_editor.py:125
+#: app/editor/main_editor.py:297
+msgid "Edit"
+msgstr ""
+
+#: app/editor/main_editor.py:191
+msgid "&New Project..."
+msgstr ""
+
+#: app/editor/main_editor.py:193
+msgid "&Open Project..."
+msgstr ""
+
+#: app/editor/main_editor.py:195
+msgid "&Save Project"
+msgstr ""
+
+#: app/editor/main_editor.py:198
+msgid "Save Project As..."
+msgstr ""
+
+#: app/editor/main_editor.py:201
+msgid "&Quit"
+msgstr ""
+
+#: app/editor/main_editor.py:209
+msgid "&Preferences..."
+msgstr ""
+
+#: app/editor/main_editor.py:210
+msgid "&About"
+msgstr ""
+
+#: app/editor/main_editor.py:212
+msgid "Remove Unused Resources"
+msgstr ""
+
+#: app/editor/main_editor.py:214
+msgid "Check for updates..."
+msgstr ""
+
+#: app/editor/main_editor.py:229
+msgid "Units"
+msgstr ""
+
+#: app/editor/main_editor.py:230
+msgid "Factions"
+msgstr ""
+
+#: app/editor/main_editor.py:231
+msgid "Parties"
+msgstr ""
+
+#: app/editor/main_editor.py:232
+msgid "Classes"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:102
+#: app/editor/main_editor.py:233
+msgid "Tags"
+msgstr ""
+
+#: app/editor/main_editor.py:234
+msgid "Game Vars"
+msgstr ""
+
+#: app/editor/main_editor.py:235
+msgid "Weapon Types"
+msgstr ""
+
+#: app/editor/main_editor.py:236
+msgid "Items"
+msgstr ""
+
+#: app/editor/main_editor.py:237
+msgid "Skills"
+msgstr ""
+
+#: app/editor/main_editor.py:239 app/editor/terrain_editor/terrain_tab.py:18
+msgid "Terrain"
+msgstr ""
+
+#: app/editor/main_editor.py:240
+msgid "Movement Costs"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:114
+#: app/editor/main_editor.py:241 app/editor/unit_editor/unit_properties.py:190
+msgid "Stats"
+msgstr ""
+
+#: app/editor/main_editor.py:242
+msgid "Equations"
+msgstr ""
+
+#: app/editor/main_editor.py:243
+msgid "Constants"
+msgstr ""
+
+#: app/editor/main_editor.py:244
+msgid "Difficulty Modes"
+msgstr ""
+
+#: app/editor/main_editor.py:245
+msgid "Supports"
+msgstr ""
+
+#: app/editor/main_editor.py:246
+msgid "Lore"
+msgstr ""
+
+#: app/editor/main_editor.py:247
+msgid "Raw Data"
+msgstr ""
+
+#: app/editor/main_editor.py:248
+msgid "Translations"
+msgstr ""
+
+#: app/editor/main_editor.py:286
+msgid "File"
+msgstr ""
+
+#: app/editor/main_editor.py:304 app/editor/main_editor.py:347
+msgid "Test"
+msgstr ""
+
+#: app/editor/main_editor.py:309
+msgid "Extra"
+msgstr ""
+
+#: app/editor/main_editor.py:329
+msgid "Database"
+msgstr ""
+
+#: app/editor/main_editor.py:338
+msgid "Resource"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:72
+msgid "Movement Type"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:77
+msgid "Tier"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:83
+msgid "Promotes From"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:84
+#: app/editor/terrain_editor/terrain_properties.py:86
+msgid "None"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:88
+msgid "Max Level"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:96
+msgid "Turns Into"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:97
+msgid "Promotion Options..."
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:103
+#: app/editor/unit_editor/unit_properties.py:179
+msgid "No tag"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:125
+msgid "Weapon Experience"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:131
+#: app/editor/unit_editor/unit_properties.py:199
+msgid "level"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:131
+#: app/editor/unit_editor/unit_properties.py:199
+msgid "skill_nid"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:132
+msgid "Class Skills"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:142
+msgid "Choose Map Sprite..."
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:148
+msgid "Auto-assign map sprite with the same unique ID"
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:153
+msgid "Choose Combat Animation..."
+msgstr ""
+
+#: app/editor/class_editor/class_properties.py:160
+msgid "Auto-assign combat animation with the same unique ID"
+msgstr ""
+
+#: app/editor/class_editor/class_tab.py:19
+msgid "Class"
+msgstr ""
+
+#: app/editor/class_editor/class_tab.py:35
+msgid "Import classes from class_info.xml"
+msgstr ""
+
+#: app/editor/item_editor/item_tab.py:40
+msgid "Import items from items.xml"
+msgstr ""
+
+#: app/editor/item_editor/item_tab.py:52
+msgid "Import items from csv"
+msgstr ""
+
+#: app/editor/party_editor/party_properties.py:31
+msgid "Leader Unit"
+msgstr ""
+
+#: app/editor/party_editor/party_tab.py:12
+msgid "Party"
+msgstr ""
+
+#: app/editor/skill_editor/skill_tab.py:39
+msgid "Import skills from status.xml"
+msgstr ""
+
+#: app/editor/stat_editor/stat_properties.py:31
+msgid "Maximum"
+msgstr ""
+
+#: app/editor/stat_editor/stat_properties.py:41
+msgid "Position"
+msgstr ""
+
+#: app/editor/stat_editor/stat_properties.py:42
+msgid "hidden"
+msgstr ""
+
+#: app/editor/stat_editor/stat_properties.py:42
+msgid "left"
+msgstr ""
+
+#: app/editor/stat_editor/stat_properties.py:42
+msgid "right"
+msgstr ""
+
+#: app/editor/terrain_editor/terrain_properties.py:52
+msgid "Minimap Type"
+msgstr ""
+
+#: app/editor/terrain_editor/terrain_properties.py:61
+msgid "Combat Platform Type"
+msgstr ""
+
+#: app/editor/terrain_editor/terrain_properties.py:68
+msgid "Combat Background"
+msgstr ""
+
+#: app/editor/terrain_editor/terrain_properties.py:85
+msgid "Status"
+msgstr ""
+
+#: app/editor/terrain_editor/terrain_tab.py:31
+msgid "Import terrain from terrain.xml"
+msgstr ""
+
+#: app/editor/unit_editor/unit_properties.py:166
+msgid "Level"
+msgstr ""
+
+#: app/editor/unit_editor/unit_properties.py:178
+msgid "Personal Tags"
+msgstr ""
+
+#: app/editor/unit_editor/unit_properties.py:200
+msgid "Personal Skills"
+msgstr ""
+
+#: app/editor/unit_editor/unit_properties.py:222
+msgid "Starting Items"
+msgstr ""
+
+#: app/editor/unit_editor/unit_tab.py:19
+msgid "Unit"
+msgstr ""
+
+#: app/editor/unit_editor/unit_tab.py:29
+msgid "Import units from units.xml"
+msgstr ""
+
+#: app/editor/unit_editor/unit_tab.py:41
+msgid "Import units from csv"
+msgstr ""
+
+#: app/editor/weapon_editor/weapon_properties.py:47
+msgid "Force Melee Anim"
+msgstr ""
+
+#: app/editor/weapon_editor/weapon_properties.py:49
+msgid ""
+"Force this weapontype to use the melee animation at melee range, even "
+"with a ranged weapon. Ex. Javelins in GBA"
+msgstr ""
+
+#: app/editor/weapon_editor/weapon_properties.py:53
+msgid "Rank Bonus"
+msgstr ""
+
+#: app/editor/weapon_editor/weapon_properties.py:55
+msgid "Advantage versus"
+msgstr ""
+
+#: app/editor/weapon_editor/weapon_properties.py:56
+msgid "Disadvantage versus"
+msgstr ""
+
+#~ msgid "usable"
+#~ msgstr ""
+
+#~ msgid "nid"
+#~ msgstr ""
+
+#~ msgid "wexp_gain"
+#~ msgstr ""
+
+#~ msgid "weapon_rank"
+#~ msgstr ""
+
+#~ msgid "damage"
+#~ msgstr ""
+
+#~ msgid "resist"
+#~ msgstr ""
+
+#~ msgid "accuracy"
+#~ msgstr ""
+
+#~ msgid "avoid"
+#~ msgstr ""
+
+#~ msgid "crit"
+#~ msgstr ""
+
+#~ msgid "dodge"
+#~ msgstr ""
+
+#~ msgid "attack_speed"
+#~ msgstr ""
+
+#~ msgid "defense_speed"
+#~ msgstr ""
+
+#~ msgid "weapon_type"
+#~ msgstr ""
+
