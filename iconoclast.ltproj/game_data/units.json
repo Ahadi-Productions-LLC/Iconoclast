@@ -136,7 +136,7 @@
         "desc": "A swordswoman from the far west. She's brash, aggressive, and has grown up in the Chain.",
         "variant": null,
         "level": 3,
-        "klass": "Mercenary",
+        "klass": "Mercenary_F",
         "tags": [],
         "bases": {
             "LCK": 3,
@@ -180,7 +180,7 @@
                 false
             ],
             [
-                "Toxin_Lance",
+                "Poison_Sword",
                 false
             ]
         ],
@@ -273,7 +273,8 @@
         "level": 1,
         "klass": "WyvernCaptain",
         "tags": [
-            "Lord"
+            "Lord",
+            "Mounted"
         ],
         "bases": {
             "HP": 22,
@@ -325,7 +326,12 @@
                 true
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -397,20 +403,20 @@
     {
         "nid": "Yazid",
         "name": "Yazid",
-        "desc": "An elder artilleryman in the chain, trusted by no-one. ",
+        "desc": "An cynical elder artilleryman in the chain, trusted by few. ",
         "variant": "",
         "level": 5,
         "klass": "Cannoneer",
         "tags": [],
         "bases": {
-            "HP": 17,
+            "HP": 18,
             "STR": 0,
-            "DIS": 6,
-            "SKL": 6,
+            "DIS": 8,
+            "SKL": 7,
             "SPD": 7,
             "LCK": 8,
             "DEF": 3,
-            "VAL": 5,
+            "VAL": 7,
             "CON": 12,
             "MOV": 4
         },
@@ -418,9 +424,9 @@
             "HP": 45,
             "STR": 0,
             "DIS": 65,
-            "SKL": 30,
-            "SPD": 45,
-            "LCK": 45,
+            "SKL": 40,
+            "SPD": 25,
+            "LCK": 35,
             "DEF": 15,
             "VAL": 40
         },
@@ -1487,7 +1493,7 @@
         "nid": "Artur",
         "name": "Artur",
         "desc": "A young monk from Renais. He is a very forthright and pious man.",
-        "variant": null,
+        "variant": "",
         "level": 2,
         "klass": "Monk",
         "tags": [],
@@ -5616,8 +5622,8 @@
         ],
         "bases": {
             "HP": 50,
-            "STR": 6,
-            "DIS": 9,
+            "STR": 9,
+            "DIS": 6,
             "SKL": 1,
             "SPD": 3,
             "LCK": 6,
@@ -5652,17 +5658,24 @@
         },
         "starting_items": [
             [
-                "Elfire",
-                false
-            ],
-            [
                 "Poison_Claw",
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "TerrifyingVisage"
+            ]
+        ],
         "unit_notes": [],
-        "wexp_gain": {},
+        "wexp_gain": {
+            "Anima": [
+                false,
+                71,
+                null
+            ]
+        },
         "alternate_classes": [],
         "portrait_nid": "Moloch Sorcerer {Damo}",
         "affinity": null,

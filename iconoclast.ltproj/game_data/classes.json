@@ -214,7 +214,7 @@
         "learned_skills": [
             [
                 1,
-                "Canto"
+                "CantoFly"
             ],
             [
                 1,
@@ -850,7 +850,7 @@
                 0,
                 251
             ],
-            "Light": [
+            "Cannon": [
                 false,
                 0,
                 251
@@ -860,7 +860,7 @@
                 0,
                 251
             ],
-            "Dark": [
+            "Musket": [
                 false,
                 0,
                 251
@@ -870,17 +870,17 @@
                 0,
                 251
             ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
             "Musket_1": [
-                false,
-                0,
-                251
-            ],
-            "Musket": [
-                false,
-                0,
-                251
-            ],
-            "Cannon": [
                 false,
                 0,
                 251
@@ -1568,7 +1568,7 @@
                 251
             ],
             "Lance": [
-                true,
+                false,
                 0,
                 251
             ],
@@ -2782,7 +2782,7 @@
                 0,
                 251
             ],
-            "Light": [
+            "Cannon": [
                 false,
                 0,
                 251
@@ -2792,7 +2792,7 @@
                 0,
                 251
             ],
-            "Dark": [
+            "Musket": [
                 false,
                 0,
                 251
@@ -2802,17 +2802,17 @@
                 0,
                 251
             ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
             "Musket_1": [
-                false,
-                0,
-                251
-            ],
-            "Musket": [
-                false,
-                0,
-                251
-            ],
-            "Cannon": [
                 false,
                 0,
                 251
@@ -2932,7 +2932,7 @@
                 0,
                 251
             ],
-            "Light": [
+            "Cannon": [
                 false,
                 0,
                 251
@@ -2942,7 +2942,7 @@
                 0,
                 251
             ],
-            "Dark": [
+            "Musket": [
                 false,
                 0,
                 251
@@ -2952,17 +2952,17 @@
                 0,
                 251
             ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
             "Musket_1": [
-                false,
-                0,
-                251
-            ],
-            "Musket": [
-                false,
-                0,
-                251
-            ],
-            "Cannon": [
                 false,
                 0,
                 251
@@ -3083,7 +3083,7 @@
                 0,
                 251
             ],
-            "Light": [
+            "Cannon": [
                 false,
                 0,
                 251
@@ -3093,7 +3093,7 @@
                 0,
                 251
             ],
-            "Dark": [
+            "Musket": [
                 false,
                 0,
                 251
@@ -3103,17 +3103,17 @@
                 0,
                 251
             ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
             "Musket_1": [
-                false,
-                0,
-                251
-            ],
-            "Musket": [
-                false,
-                0,
-                251
-            ],
-            "Cannon": [
                 false,
                 0,
                 251
@@ -3211,7 +3211,7 @@
             ],
             [
                 1,
-                "Canto"
+                "CantoFly"
             ]
         ],
         "wexp_gain": {
@@ -3240,7 +3240,7 @@
                 0,
                 251
             ],
-            "Light": [
+            "Cannon": [
                 false,
                 0,
                 251
@@ -3250,7 +3250,7 @@
                 0,
                 251
             ],
-            "Dark": [
+            "Musket": [
                 false,
                 0,
                 251
@@ -3260,17 +3260,17 @@
                 0,
                 251
             ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
             "Musket_1": [
-                false,
-                0,
-                251
-            ],
-            "Musket": [
-                false,
-                0,
-                251
-            ],
-            "Cannon": [
                 false,
                 0,
                 251
@@ -3365,7 +3365,7 @@
             ],
             [
                 1,
-                "Canto"
+                "CantoFly"
             ]
         ],
         "wexp_gain": {
@@ -3394,7 +3394,7 @@
                 0,
                 251
             ],
-            "Light": [
+            "Cannon": [
                 false,
                 0,
                 251
@@ -3404,7 +3404,7 @@
                 0,
                 251
             ],
-            "Dark": [
+            "Musket": [
                 false,
                 0,
                 251
@@ -3414,17 +3414,17 @@
                 0,
                 251
             ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
             "Musket_1": [
-                false,
-                0,
-                251
-            ],
-            "Musket": [
-                false,
-                0,
-                251
-            ],
-            "Cannon": [
                 false,
                 0,
                 251
@@ -3830,7 +3830,7 @@
                 0,
                 251
             ],
-            "Light": [
+            "Cannon": [
                 false,
                 0,
                 251
@@ -3840,7 +3840,7 @@
                 0,
                 251
             ],
-            "Dark": [
+            "Musket": [
                 false,
                 0,
                 251
@@ -3850,17 +3850,17 @@
                 0,
                 251
             ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
             "Musket_1": [
-                false,
-                0,
-                251
-            ],
-            "Musket": [
-                false,
-                0,
-                251
-            ],
-            "Cannon": [
                 false,
                 0,
                 251
@@ -6722,7 +6722,7 @@
             ],
             [
                 1,
-                "Canto"
+                "CantoFly"
             ]
         ],
         "wexp_gain": {
@@ -6877,7 +6877,7 @@
             ],
             [
                 1,
-                "Canto"
+                "CantoFly"
             ]
         ],
         "wexp_gain": {
@@ -7032,7 +7032,7 @@
             ],
             [
                 1,
-                "Canto"
+                "CantoFly"
             ]
         ],
         "wexp_gain": {
@@ -7264,7 +7264,7 @@
         "max_level": 20,
         "bases": {
             "HP": 25,
-            "STR": 2,
+            "STR": 5,
             "SKL": 0,
             "SPD": 0,
             "LCK": 0,
@@ -7844,7 +7844,7 @@
         "max_level": 20,
         "bases": {
             "HP": 18,
-            "STR": 4,
+            "STR": 2,
             "SKL": 3,
             "SPD": 2,
             "LCK": 0,
@@ -7852,7 +7852,7 @@
             "CON": 6,
             "MOV": 5,
             "VAL": 0,
-            "DIS": 2
+            "DIS": 4
         },
         "growths": {
             "HP": 70,
@@ -8963,7 +8963,7 @@
                 null
             ],
             "Cannon": [
-                true,
+                false,
                 0,
                 null
             ],
@@ -8973,7 +8973,7 @@
                 null
             ],
             "Musket": [
-                true,
+                false,
                 0,
                 null
             ],
