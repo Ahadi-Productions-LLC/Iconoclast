@@ -387,66 +387,15 @@
         ],
         "regions": [
             {
-                "nid": "House1",
-                "region_type": "event",
-                "position": [
-                    13,
-                    6
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "House2",
-                "region_type": "event",
-                "position": [
-                    10,
-                    4
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Gate",
-                "region_type": "event",
-                "position": [
-                    2,
-                    2
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Seize",
-                "condition": "unit.nid == 'Eirika'",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
                 "nid": "EnemyRein",
                 "region_type": "normal",
                 "position": [
-                    0,
-                    0
+                    1,
+                    2
                 ],
                 "size": [
-                    8,
-                    10
+                    9,
+                    5
                 ],
                 "sub_nid": "",
                 "condition": "True",
