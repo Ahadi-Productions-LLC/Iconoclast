@@ -294,7 +294,7 @@
         ],
         "minimap": "Fort",
         "platform": "Fort",
-        "background": "combat_outside_castle",
+        "background": "combat_castle3",
         "mtype": "Fort",
         "opaque": false,
         "status": "Fort"

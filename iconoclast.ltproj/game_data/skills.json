@@ -1,7 +1,7 @@
 [
     {
         "nid": "Canto",
-        "name": "Canto",
+        "name": "Canter",
         "desc": "Can move again after certain actions.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -14,8 +14,28 @@
                 null
             ],
             [
-                "canto_plus",
+                "canter",
+                4
+            ]
+        ]
+    },
+    {
+        "nid": "CantoFly",
+        "name": "Flying Strike",
+        "desc": "Can move again after certain actions.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
                 null
+            ],
+            [
+                "canter",
+                2
             ]
         ]
     },
@@ -1126,6 +1146,22 @@
             [
                 "condition",
                 "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Sword'"
+            ]
+        ]
+    },
+    {
+        "nid": "Massive",
+        "name": "Massive",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "avoid",
+                -20
             ]
         ]
     },

@@ -120,5 +120,10 @@
         "nid": "2. Temple - Tileset Object Palette (Green) {Zarg}",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Iconoclast LT_1",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

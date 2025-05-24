@@ -2,6 +2,16 @@
     {
         "nid": "Talib",
         "name": "The White Chain",
+        "leader": "Talib"
+    },
+    {
+        "nid": "Revanche",
+        "name": "Revanche",
+        "leader": "Mahmoud"
+    },
+    {
+        "nid": "New Party",
+        "name": "New Party",
         "leader": "Hawa"
     }
 ]

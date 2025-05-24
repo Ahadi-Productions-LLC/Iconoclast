@@ -409,14 +409,14 @@
         "klass": "Cannoneer",
         "tags": [],
         "bases": {
-            "HP": 17,
+            "HP": 18,
             "STR": 0,
-            "DIS": 6,
-            "SKL": 6,
+            "DIS": 8,
+            "SKL": 7,
             "SPD": 7,
             "LCK": 8,
             "DEF": 3,
-            "VAL": 5,
+            "VAL": 7,
             "CON": 12,
             "MOV": 4
         },
@@ -424,9 +424,9 @@
             "HP": 45,
             "STR": 0,
             "DIS": 65,
-            "SKL": 30,
-            "SPD": 45,
-            "LCK": 45,
+            "SKL": 40,
+            "SPD": 25,
+            "LCK": 35,
             "DEF": 15,
             "VAL": 40
         },
@@ -1493,7 +1493,7 @@
         "nid": "Artur",
         "name": "Artur",
         "desc": "A young monk from Renais. He is a very forthright and pious man.",
-        "variant": null,
+        "variant": "",
         "level": 2,
         "klass": "Monk",
         "tags": [],
@@ -5622,8 +5622,8 @@
         ],
         "bases": {
             "HP": 50,
-            "STR": 6,
-            "DIS": 9,
+            "STR": 9,
+            "DIS": 6,
             "SKL": 1,
             "SPD": 3,
             "LCK": 6,
@@ -5658,15 +5658,16 @@
         },
         "starting_items": [
             [
-                "Lightning",
-                false
-            ],
-            [
                 "Poison_Claw",
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "TerrifyingVisage"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Anima": [

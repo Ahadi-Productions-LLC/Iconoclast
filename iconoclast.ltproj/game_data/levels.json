@@ -135,7 +135,7 @@
     },
     {
         "nid": "1",
-        "name": "Ch. 1: Escape!",
+        "name": "Ch. 1: Dead Gods",
         "tilemap": "Chapter 1_1",
         "bg_tilemap": null,
         "party": "Talib",
@@ -167,8 +167,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    5,
-                    18
+                    6,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -219,8 +219,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    17
+                    5,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -277,17 +277,17 @@
                 "nid": "105",
                 "variant": null,
                 "level": 1,
-                "klass": "Sword_Bonewalker",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Fetid_Claw",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -298,17 +298,17 @@
                 "nid": "107",
                 "variant": null,
                 "level": 1,
-                "klass": "Sword_Bonewalker",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Fetid_Claw",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -367,17 +367,17 @@
                 "nid": "106",
                 "variant": null,
                 "level": 1,
-                "klass": "Bow_Bonewalker",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Iron_Bow",
+                        "Fetid_Claw",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -503,15 +503,15 @@
                 "positions": {
                     "106": [
                         5,
-                        2
+                        6
                     ],
                     "105": [
                         2,
-                        4
+                        5
                     ],
                     "107": [
                         8,
-                        4
+                        5
                     ]
                 }
             },
@@ -526,7 +526,12 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "2",

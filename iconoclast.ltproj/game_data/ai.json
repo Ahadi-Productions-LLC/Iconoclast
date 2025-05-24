@@ -9,7 +9,7 @@
                     "Team",
                     "other"
                 ],
-                "view_range": -5,
+                "view_range": 1,
                 "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -591,7 +591,7 @@
                 "action": "Attack",
                 "target": "Enemy",
                 "target_spec": null,
-                "view_range": 1,
+                "view_range": -1,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -618,7 +618,7 @@
                 "condition": ""
             }
         ],
-        "priority": 20,
+        "priority": 10,
         "offense_bias": 2,
         "roam_ai": false
     }
