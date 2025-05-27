@@ -18,7 +18,7 @@
         "objective": {
             "simple": "Defeat boss",
             "win": "Defeat boss",
-            "loss": "Talib Dies"
+            "loss": "Talib Defeated"
         },
         "roam": false,
         "roam_unit": "Eirika",
@@ -89,10 +89,10 @@
             },
             {
                 "nid": "MahmoudE",
-                "team": "enemy",
+                "team": "other",
                 "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     10,
                     7
@@ -151,8 +151,8 @@
         },
         "objective": {
             "simple": "Seize Gate",
-            "win": "Seize Boss",
-            "loss": "Eirika dies"
+            "win": "Defeat Archtree",
+            "loss": "Any Character Defeated"
         },
         "roam": false,
         "roam_unit": null,
@@ -220,7 +220,7 @@
                 "ai_group": "",
                 "starting_position": [
                     5,
-                    18
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -287,7 +287,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FollowBoss",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -308,7 +308,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FollowBoss",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -377,7 +377,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FollowBoss",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -452,7 +452,7 @@
                 "positions": {
                     "106": [
                         5,
-                        6
+                        2
                     ],
                     "105": [
                         2,
@@ -475,17 +475,12 @@
                 "positions": {}
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "2",
-        "name": "Ch. 2: The Protected",
-        "tilemap": "Chapter 2",
+        "name": "Ch. 2: Contract Negotiations",
+        "tilemap": "Urgarh",
         "bg_tilemap": null,
         "party": "Talib",
         "music": {
@@ -499,9 +494,9 @@
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "Defeat enemy,Left {eval:len(game.get_enemy_units())}",
-            "win": "Defeat all enemies",
-            "loss": "Eirika dies"
+            "simple": "Sieze Gate without excessive casualties. Left {eval:len(game.get_enemy_units())}",
+            "win": "Sieze Gatehouse",
+            "loss": "More than 10 units are defeated"
         },
         "roam": false,
         "roam_unit": null,
@@ -517,7 +512,7 @@
                 "ai_group": null,
                 "starting_position": [
                     2,
-                    2
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -529,86 +524,47 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    0,
-                    1
+                    1,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Franz",
+                "nid": "Harjot",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    0,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Azia",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,
-                    1
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Gilliam",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    0,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Vanessa",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    6,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Moulder",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    3,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Ross",
+                "nid": "Nasruddin",
                 "team": "other",
                 "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    10,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Garcia",
-                "team": "other",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    10,
-                    4
+                    21,
+                    1
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -620,8 +576,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    9,
-                    14
+                    22,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -630,7 +586,7 @@
                 "nid": "TopBandit",
                 "variant": null,
                 "level": 2,
-                "klass": "Brigand",
+                "klass": "Hero",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -640,12 +596,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Coward",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    12,
-                    3
+                    15,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -654,7 +610,7 @@
                 "nid": "BoneBuddy",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Knight",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -664,12 +620,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "FollowBoss",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    10,
-                    12
+                    19,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -678,22 +634,22 @@
                 "nid": "103",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Archer",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Iron_Axe",
+                        "Iron_Bow",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "PursueVillage",
+                "ai": "Coward",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    7,
-                    14
+                    8,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -702,11 +658,11 @@
                 "nid": "104",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Musketeer",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Iron_Axe",
+                        "Arquebus",
                         false
                     ],
                     [
@@ -716,12 +672,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Coward",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    6,
-                    11
+                    18,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -740,12 +696,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Coward",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    14,
-                    9
+                    3,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -754,22 +710,22 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Brigand",
+                "klass": "Myrmidon",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Iron_Axe",
+                        "Slim_Sword",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "PursueVillage",
+                "ai": "Coward",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    1,
-                    9
+                    3,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -778,8 +734,82 @@
                 "nid": "107",
                 "variant": null,
                 "level": 3,
-                "klass": "Brigand",
+                "klass": "Myrmidon",
                 "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Slim_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Coward",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Leda",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Mahmoud",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Scholar",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Surgeons_Tools",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    24,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "Knight",
+                "faction": "Soldier",
                 "starting_items": [
                     [
                         "Iron_Axe",
@@ -788,15 +818,67 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "PursueVillage",
+                "ai": "Coward",
                 "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    0,
-                    9
-                ],
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 1,
+                "klass": "Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Coward",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 1,
+                "klass": "Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Coward",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Red",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -968,8 +1050,7 @@
             {
                 "nid": "RossGarcia",
                 "units": [
-                    "Ross",
-                    "Garcia"
+                    "Nasruddin"
                 ],
                 "positions": {}
             },
@@ -978,9 +1059,8 @@
                 "units": [
                     "Hawa",
                     "Talib",
-                    "Franz",
-                    "Gilliam",
-                    "Moulder"
+                    "Harjot",
+                    "Azia"
                 ],
                 "positions": {}
             }
@@ -989,8 +1069,8 @@
     },
     {
         "nid": "3",
-        "name": "Ch. 3: The Bandits of Borgo",
-        "tilemap": "Chapter 3",
+        "name": "Ch. 3: Catastrophe",
+        "tilemap": "New Tilemap",
         "bg_tilemap": null,
         "party": "Talib",
         "music": {
@@ -1041,7 +1121,7 @@
                 "generic": false
             },
             {
-                "nid": "Franz",
+                "nid": "Harjot",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1054,7 +1134,7 @@
                 "generic": false
             },
             {
-                "nid": "Gilliam",
+                "nid": "Azia",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1067,7 +1147,7 @@
                 "generic": false
             },
             {
-                "nid": "Vanessa",
+                "nid": "Jameela",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1080,7 +1160,7 @@
                 "generic": false
             },
             {
-                "nid": "Moulder",
+                "nid": "Kavitha",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1093,7 +1173,7 @@
                 "generic": false
             },
             {
-                "nid": "Ross",
+                "nid": "Muneeb",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1106,51 +1186,12 @@
                 "generic": false
             },
             {
-                "nid": "Garcia",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    2,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Neimi",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    1,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Colm",
+                "nid": "Nasruddin",
                 "team": "other",
                 "ai": "Thief",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Bazba",
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    14,
-                    1
-                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -1604,13 +1645,10 @@
                 "units": [
                     "Hawa",
                     "Talib",
-                    "Franz",
-                    "Gilliam",
-                    "Vanessa",
-                    "Moulder",
-                    "Ross",
-                    "Neimi",
-                    "Garcia"
+                    "Harjot",
+                    "Azia",
+                    "Kavitha",
+                    "Muneeb"
                 ],
                 "positions": {}
             }
@@ -1619,7 +1657,7 @@
     },
     {
         "nid": "4",
-        "name": "Ch. 4: Ancient Horrors",
+        "name": "Ch. 4: Waylaid",
         "tilemap": "Chapter 4",
         "bg_tilemap": null,
         "party": "Talib",
@@ -1658,29 +1696,6 @@
                 "generic": false
             },
             {
-                "nid": "Artur",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    7,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Lute",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Talib",
                 "team": "player",
                 "ai": "None",
@@ -1694,7 +1709,7 @@
                 "generic": false
             },
             {
-                "nid": "Gilliam",
+                "nid": "Azia",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1707,7 +1722,7 @@
                 "generic": false
             },
             {
-                "nid": "Vanessa",
+                "nid": "Jameela",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1720,7 +1735,7 @@
                 "generic": false
             },
             {
-                "nid": "Moulder",
+                "nid": "Kavitha",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1733,7 +1748,7 @@
                 "generic": false
             },
             {
-                "nid": "Ross",
+                "nid": "Muneeb",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1746,7 +1761,7 @@
                 "generic": false
             },
             {
-                "nid": "Colm",
+                "nid": "Nasruddin",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1754,19 +1769,6 @@
                 "starting_position": [
                     4,
                     0
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Neimi",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    3,
-                    1
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -2324,45 +2326,6 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
-            },
-            {
-                "nid": "L'arachel",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    13,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Dozla",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    12,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Rennac",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    14,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": false
             }
         ],
         "regions": [
@@ -2592,12 +2555,10 @@
                 "units": [
                     "Hawa",
                     "Talib",
-                    "Gilliam",
-                    "Vanessa",
-                    "Moulder",
-                    "Ross",
-                    "Colm",
-                    "Neimi"
+                    "Azia",
+                    "Kavitha",
+                    "Muneeb",
+                    "Nasruddin"
                 ],
                 "positions": {}
             },
@@ -2617,27 +2578,15 @@
             },
             {
                 "nid": "LGang",
-                "units": [
-                    "L'arachel",
-                    "Dozla"
-                ],
-                "positions": {
-                    "L'arachel": [
-                        10,
-                        5
-                    ],
-                    "Dozla": [
-                        11,
-                        4
-                    ]
-                }
+                "units": [],
+                "positions": {}
             }
         ],
         "ai_groups": []
     },
     {
         "nid": "5",
-        "name": "Ch. 5: The Empire's Reach",
+        "name": "Ch. 5: The Dragon's Tail",
         "tilemap": "Chapter 5",
         "bg_tilemap": null,
         "party": "Talib",
@@ -2671,45 +2620,6 @@
                 "starting_position": [
                     4,
                     17
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Natasha",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    5,
-                    18
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Joshua",
-                "team": "enemy",
-                "ai": "JoshuaDefend",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    9,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Saar",
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    13,
-                    1
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -3570,7 +3480,6 @@
                 "nid": "EnemyTeam",
                 "units": [
                     "101",
-                    "Saar",
                     "102",
                     "103",
                     "104",
@@ -3687,7 +3596,7 @@
                 "generic": false
             },
             {
-                "nid": "Moulder",
+                "nid": "Kavitha",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -3700,7 +3609,7 @@
                 "generic": false
             },
             {
-                "nid": "Vanessa",
+                "nid": "Jameela",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -3716,7 +3625,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 1,
-                "klass": "Shaman",
+                "klass": "Engineer",
                 "faction": "Soldier",
                 "starting_items": [
                     [
