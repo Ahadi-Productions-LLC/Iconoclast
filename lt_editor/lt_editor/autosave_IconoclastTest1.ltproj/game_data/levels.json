@@ -496,7 +496,7 @@
         "objective": {
             "simple": "Sieze Gate without excessive casualties. Left {eval:len(game.get_enemy_units())}",
             "win": "Sieze Gatehouse",
-            "loss": "More than 10 units are defeated"
+            "loss": "More than 5 enemy units are defeated"
         },
         "roam": false,
         "roam_unit": null,

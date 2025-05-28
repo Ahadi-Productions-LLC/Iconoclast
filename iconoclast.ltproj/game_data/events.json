@@ -717,71 +717,6 @@
         "nid": "5 Vendor"
     },
     {
-        "name": "Village1Eirika",
-        "trigger": "Visit",
-        "level_nid": "2",
-        "condition": "region.nid == 'Village1' and unit.nid == 'Eirika'",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "transition;Close",
-            "change_background;Town",
-            "transition;Open",
-            "add_portrait;Woman1;Left;no_block",
-            "add_portrait;Selena;Right",
-            "speak;Woman1;This is terrible... What are we going to do? Those bandits are so close.|If we can't find some way to protect ourselves, the village is doomed.",
-            "speak;Selena;Perhaps...",
-            "remove_portrait;Woman1",
-            "add_portrait;Eirika;Left",
-            "speak;Eirika;People, listen to me! You must close the village gates immediately.|Hurry, before the bandits arrive!",
-            "speak;Selena;Who are you? You aren't from one of the neighboring towns, are you.|And your weapons give you away... You're no peasant.",
-            "speak;Eirika;I am Er...|My name is Erina.{br}I'm a mercenary.",
-            "speak;Selena;A mercenary named Erina, is it?|There's more to you than that, I feel. But don't worry--it's none of my affair.|I haven't told you who I am yet, have I?{br}I am Selena, a general in Grado's army.",
-            "speak;Eirika;Ah!",
-            "speak;Selena;Is something wrong?",
-            "speak;Eirika;No...uh, nothing.",
-            "speak;Selena;It looks like these villagers have some bandit troubles.|I would like to help, but I have orders...|I'm to leave for the capital immediately, and I cannot stay.|You're armed, and you claim to be a mercenary. Will you help them?",
-            "speak;Eirika;Um...",
-            "speak;Selena;Is there a problem?",
-            "speak;Eirika;No! Of course I'll help them!|It's just... You're one of Grado's generals... Why...",
-            "speak;Selena;These aren't soldiers.{br}They're people.|Should they suffer because their leaders fight?|I've petitioned your aid. Take this as payment.",
-            "remove_portrait;Selena",
-            "speak;Eirika;......",
-            "transition;Close",
-            "show_layer;Village1",
-            "change_background",
-            "transition;Open",
-            "give_item;Eirika;Red Gem",
-            "has_traded;{unit}"
-        ],
-        "nid": "2 Village1Eirika"
-    },
-    {
-        "name": "Village1",
-        "trigger": "Visit",
-        "level_nid": "2",
-        "condition": "region.nid == 'Village1' and unit.nid != 'Eirika'",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "transition;Close",
-            "change_background;Town",
-            "transition;Open",
-            "add_portrait;{unit};Left;no_block",
-            "add_portrait;Selena;Right",
-            "speak;Selena;And who are you? You don't look like one of the local peasantry.{w}{clear}As you can see, these villagers have some bandit troubles.|I would like to help, but I have orders to follow...|I am required to quit this area at once.|I would ask you to aid them in this fight.|I will pay for your trouble, of course.",
-            "transition;Close",
-            "show_layer;Village1",
-            "change_background",
-            "transition;Open",
-            "give_item;{unit};Red Gem",
-            "has_traded;{unit}"
-        ],
-        "nid": "2 Village1"
-    },
-    {
         "name": "Village1",
         "trigger": "Visit",
         "level_nid": "5",
@@ -952,100 +887,6 @@
         "nid": "4 Village2"
     },
     {
-        "name": "EirikaRossTalk",
-        "trigger": "on_talk",
-        "level_nid": "2",
-        "condition": "unit.nid == 'Eirika' and unit2.nid == 'Ross'",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "add_portrait;Eirika;Left;no_block",
-            "add_portrait;Ross;Right",
-            "speak;Ross;Hey, listen! My village is being attacked by bandits.|My name's Ross.|Come on! You have to help me wipe those thugs out!",
-            "speak;Eirika;All right, just... Just take a deep breath and calm down, Ross.|Leave the villages to use.{br}We'll drive off the bandits.|Seth, take the boy somewhere safe.",
-            "bop_portrait;Ross",
-            "speak;Ross;No! Wait! I'm going to fight, too!",
-            "speak;Eirika;But...",
-            "speak;Ross;My father is out there all alone, fighting those bandits.|I've got to get back to him as quickly as possible!|I'm the son of the great Garcia!|As long as I have my axe, no bandit will ever defeat me!",
-            "speak;Eirika;All right, I can see you're not going to be swayed...|But you must promise you will stay close to us.",
-            "remove_portrait;Eirika;no_block",
-            "remove_portrait;Ross",
-            "change_team;Ross;player"
-        ],
-        "nid": "2 EirikaRossTalk"
-    },
-    {
-        "name": "Village2",
-        "trigger": "Visit",
-        "level_nid": "2",
-        "condition": "region.nid == 'Village2'",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "transition;Close",
-            "change_background;Town",
-            "transition;Open",
-            "add_portrait;Woman2;Right;no_block",
-            "add_portrait;{unit};Left",
-            "speak;Woman2;The most wonderful man rescued me.|He was dressed like a mercenary, but he had an air of elegance about him...|He gave me this elixir. I'm sure it will help you on the battlefield.",
-            "transition;Close",
-            "show_layer;Village2",
-            "change_background",
-            "transition;Open",
-            "give_item;{unit};Elixir",
-            "has_traded;{unit}"
-        ],
-        "nid": "2 Village2"
-    },
-    {
-        "name": "Village3",
-        "trigger": "Visit",
-        "level_nid": "2",
-        "condition": "region.nid == 'Village3'",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "transition;Close",
-            "change_background;Town",
-            "transition;Open",
-            "add_portrait;Man3;Right;no_block",
-            "add_portrait;{unit};Left",
-            "speak;Man3;Hm? What is it? What's all the ruckus?|What? B-bandits?!|Spread the word, everyone!{br}Close the village gates!|Thank you for your warning.{br}Please, accept this small token.",
-            "transition;Close",
-            "show_layer;Village3",
-            "change_background",
-            "transition;Open",
-            "give_item;{unit};Pure Water",
-            "has_traded;{unit}"
-        ],
-        "nid": "2 Village3"
-    },
-    {
-        "name": "RossGarciaTalk",
-        "trigger": "on_talk",
-        "level_nid": "2",
-        "condition": "unit.nid == 'Ross' and unit2.nid == 'Garcia'",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "add_portrait;Ross;Left;no_block",
-            "add_portrait;Garcia;Right",
-            "bop_portrait;Ross",
-            "speak;Ross;Dad!",
-            "speak;Garcia;Ross?! Boy, what did I tell you!? What are you doing here?|Don't worry about me. Hurry up and get yourself to safety!",
-            "speak;Ross;Did you really think I could just run away while you fight, Dad?|You taught me that fighters fight for what's important to them!|There's no way I'm leaving!{br}I'm fighting just like you!",
-            "speak;Garcia;Ross...|All right, listen to me. We'll cut our way out of here together!",
-            "remove_portrait;Ross;no_block",
-            "remove_portrait;Garcia",
-            "change_team;Garcia;player"
-        ],
-        "nid": "2 RossGarciaTalk"
-    },
-    {
         "name": "NatashaJoshuaTalk",
         "trigger": "on_talk",
         "level_nid": "5",
@@ -1079,52 +920,6 @@
             "change_team;Joshua;player"
         ],
         "nid": "5 NatashaJoshuaTalk"
-    },
-    {
-        "name": "Turn3",
-        "trigger": "turn_change",
-        "level_nid": "2",
-        "condition": "game.turncount == 3",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "move_cursor;1,9",
-            "spawn_group;BanditReinforcements;West;BanditReinforcements"
-        ],
-        "nid": "2 Turn3"
-    },
-    {
-        "name": "Turn2",
-        "trigger": "turn_change",
-        "level_nid": "2",
-        "condition": "game.turncount == 2",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "# On enemy's second turn, they start moving",
-            "change_ai;104;PursueVillage",
-            "change_ai;105;Pursue",
-            "change_ai;BoneBuddy;PursueVillage",
-            "change_ai;TopBandit;PursueVillage"
-        ],
-        "nid": "2 Turn2"
-    },
-    {
-        "name": "FightBone",
-        "trigger": "combat_start",
-        "level_nid": "2",
-        "condition": "(unit.nid == \"Bone\" and unit2.team == 'player') or (unit2.nid == \"Bone\" and unit.team == 'player')",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "add_portrait;Bone;Left",
-            "speak;Bone;Wait a minute!{br}Wh-who are you?",
-            "remove_portrait;Bone"
-        ],
-        "nid": "2 FightBone"
     },
     {
         "name": "DeathBone",
@@ -1321,21 +1116,6 @@
     {
         "name": "DestroyVillage1",
         "trigger": "Destructible",
-        "level_nid": "2",
-        "condition": "region.nid == 'DestroyVillage1'",
-        "commands": [],
-        "only_once": true,
-        "priority": 20,
-        "_source": [
-            "flicker_cursor;4,2",
-            "show_layer;Ruin1",
-            "wait;500"
-        ],
-        "nid": "2 DestroyVillage1"
-    },
-    {
-        "name": "DestroyVillage1",
-        "trigger": "Destructible",
         "level_nid": "5",
         "condition": "region.nid == 'Village1'",
         "commands": [],
@@ -1392,36 +1172,6 @@
             "wait;500"
         ],
         "nid": "5 DestroyVillage4"
-    },
-    {
-        "name": "DestroyVillage2",
-        "trigger": "Destructible",
-        "level_nid": "2",
-        "condition": "region.nid == 'DestroyVillage2'",
-        "commands": [],
-        "only_once": true,
-        "priority": 20,
-        "_source": [
-            "flicker_cursor;7,2",
-            "show_layer;Ruin2",
-            "wait;500"
-        ],
-        "nid": "2 DestroyVillage2"
-    },
-    {
-        "name": "DestroyVillage3",
-        "trigger": "Destructible",
-        "level_nid": "2",
-        "condition": "region.nid == 'DestroyVillage3'",
-        "commands": [],
-        "only_once": true,
-        "priority": 20,
-        "_source": [
-            "flicker_cursor;1,12",
-            "show_layer;Ruin3",
-            "wait;500"
-        ],
-        "nid": "2 DestroyVillage3"
     },
     {
         "name": "Turn2",
