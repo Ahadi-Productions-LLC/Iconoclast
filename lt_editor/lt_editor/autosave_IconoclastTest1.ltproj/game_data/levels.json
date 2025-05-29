@@ -465,7 +465,7 @@
                 }
             },
             {
-                "nid": "EirikaSeth",
+                "nid": "Player1",
                 "units": [
                     "Hawa",
                     "Talib",
@@ -494,9 +494,9 @@
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "Sieze Gate without excessive casualties. Left {eval:len(game.get_enemy_units())}",
-            "win": "Sieze Gatehouse",
-            "loss": "More than 5 enemy units are defeated"
+            "simple": "Sieze Gate ,  Casualties {eval: game.level_vars.get('_casualties')}",
+            "win": "Sieze Gatehouse. ",
+            "loss": "More than 5 units are defeated"
         },
         "roam": false,
         "roam_unit": null,
@@ -505,61 +505,9 @@
         "tags": [],
         "units": [
             {
-                "nid": "Hawa",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    2,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Talib",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    1,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Harjot",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    0,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Azia",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    1,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Nasruddin",
-                "team": "other",
-                "ai": "Guard",
+                "team": "enemy",
+                "ai": "Thief",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -570,7 +518,7 @@
                 "generic": false
             },
             {
-                "nid": "Bone",
+                "nid": "Saleh",
                 "team": "enemy",
                 "ai": "Pursue",
                 "roam_ai": null,
@@ -624,8 +572,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    19,
-                    19
+                    6,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -648,8 +596,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    13
+                    2,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -676,8 +624,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
-                    7
+                    1,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -700,8 +648,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    13
+                    1,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -724,8 +672,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    17
+                    4,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -748,37 +696,11 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    16
+                    5,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
-            },
-            {
-                "nid": "Leda",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Mahmoud",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    2,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": false
             },
             {
                 "nid": "101",
@@ -798,8 +720,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    24,
-                    5
+                    1,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -868,6 +790,26 @@
                 "generic": true
             },
             {
+                "nid": "Leda",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Muneeb",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "Red",
                 "team": "player",
                 "ai": "None",
@@ -875,130 +817,139 @@
                 "ai_group": "",
                 "starting_position": [
                     2,
-                    8
+                    6
                 ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Talib",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Mahmoud",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Harjot",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Hawa",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             }
         ],
         "regions": [
             {
-                "nid": "Village1",
-                "region_type": "event",
+                "nid": "Chest1",
+                "region_type": "normal",
                 "position": [
-                    4,
-                    2
+                    24,
+                    17
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Village2",
-                "region_type": "event",
-                "position": [
-                    7,
-                    2
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Village3",
-                "region_type": "event",
-                "position": [
-                    1,
-                    12
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Armory",
-                "region_type": "event",
-                "position": [
-                    5,
-                    7
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Armory",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             },
             {
-                "nid": "DestroyVillage1",
-                "region_type": "event",
+                "nid": "Chest2",
+                "region_type": "normal",
                 "position": [
-                    4,
-                    2
+                    3,
+                    20
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy'",
+                "sub_nid": null,
+                "condition": "True",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false
             },
             {
-                "nid": "DestroyVillage2",
-                "region_type": "event",
+                "nid": "Chest3",
+                "region_type": "normal",
                 "position": [
-                    7,
-                    2
+                    24,
+                    13
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy'",
+                "sub_nid": null,
+                "condition": "True",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false
             },
             {
-                "nid": "DestroyVillage3",
+                "nid": "Escape",
                 "region_type": "event",
                 "position": [
-                    1,
-                    12
+                    0,
+                    15
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Destructible",
-                "condition": "unit.team == 'enemy'",
+                "sub_nid": "None",
+                "condition": "True",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation",
+                "region_type": "formation",
+                "position": [
+                    0,
+                    9
+                ],
+                "size": [
+                    3,
+                    3
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
                 "interrupt_move": false
             }
         ],
@@ -1025,7 +976,7 @@
                 "units": [
                     "TopBandit",
                     "105",
-                    "Bone",
+                    "Saleh",
                     "BoneBuddy"
                 ],
                 "positions": {
@@ -1037,12 +988,12 @@
                         14,
                         9
                     ],
-                    "Bone": [
-                        13,
-                        7
-                    ],
                     "BoneBuddy": [
                         11,
+                        7
+                    ],
+                    "Saleh": [
+                        13,
                         7
                     ]
                 }
@@ -1056,15 +1007,32 @@
             },
             {
                 "nid": "BlueTeam",
-                "units": [
-                    "Hawa",
-                    "Talib",
-                    "Harjot",
-                    "Azia"
-                ],
+                "units": [],
                 "positions": {}
             }
         ],
+        "ai_groups": []
+    },
+    {
+        "nid": "3",
+        "name": "Chapter 3: Catastrophe",
+        "tilemap": "Chapter 3",
+        "bg_tilemap": null,
+        "party": "Talib",
+        "music": {},
+        "objective": {
+            "simple": "Defeat All Enemies",
+            "win": "Defeat All Enemies",
+            "loss": "20 Allies are Defeated"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
         "ai_groups": []
     },
     {
@@ -1095,7 +1063,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Bone",
+                "nid": "Saleh",
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,

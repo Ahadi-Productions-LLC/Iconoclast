@@ -70,5 +70,9 @@
     {
         "nid": "_last_choice",
         "desc": "Holds the most recent choice made by the player using choice event."
+    },
+    {
+        "nid": "_casualties",
+        "desc": "Use as Level Var. Tracks casualties within a level"
     }
 ]

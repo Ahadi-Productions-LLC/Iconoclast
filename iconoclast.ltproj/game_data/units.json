@@ -266,7 +266,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "TerrifyingVisage"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {},
         "alternate_classes": [],
@@ -2488,7 +2493,7 @@
     {
         "nid": "Mahmoud",
         "name": "Mahmoud",
-        "desc": "A minor noble",
+        "desc": "Noble but blunt heir of Urgarh",
         "variant": null,
         "level": 4,
         "klass": "Cavalier",
@@ -2742,17 +2747,17 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "{Goldblitzx} Apollo",
+        "portrait_nid": "{h0lyMushrooms} OC Sahhar (Version 2) [F2E]",
         "affinity": null,
         "fields": []
     },
     {
-        "nid": "Bone",
-        "name": "Bone",
-        "desc": "One of Bazba's henchmen.",
-        "variant": null,
+        "nid": "Saleh",
+        "name": "Saleh",
+        "desc": "Clever but ruthless heir of Urgarh",
+        "variant": "",
         "level": 4,
-        "klass": "Brigand",
+        "klass": "Engineer",
         "tags": [
             "Boss"
         ],
@@ -2794,11 +2799,16 @@
         },
         "starting_items": [
             [
-                "Iron_Axe",
+                "Arquebus",
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Inspiration"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -2813,7 +2823,7 @@
             ],
             "Axe": [
                 true,
-                31,
+                0,
                 251
             ],
             "Bow": [
@@ -2853,12 +2863,12 @@
             ],
             "Musket": [
                 false,
-                0,
+                1,
                 251
             ],
             "Cannon": [
                 false,
-                0,
+                1,
                 251
             ],
             "Tools": [
@@ -2868,7 +2878,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Bone",
+        "portrait_nid": "{Goldblitzx} Apollo",
         "affinity": "None",
         "fields": []
     },
