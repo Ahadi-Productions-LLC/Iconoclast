@@ -609,13 +609,13 @@
             },
             {
                 "action": "Move_to",
-                "target": "Position",
-                "target_spec": "Starting",
+                "target": "Enemy",
+                "target_spec": null,
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
-                "condition": ""
+                "condition": "game.turncount == 3"
             }
         ],
         "priority": 10,

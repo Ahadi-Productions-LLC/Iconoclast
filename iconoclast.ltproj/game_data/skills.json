@@ -88,13 +88,13 @@
             ],
             [
                 "gain_skill_after_take_damage",
-                "Morale"
+                "rally_child"
             ]
         ]
     },
     {
-        "nid": "Morale",
-        "name": "Morale",
+        "nid": "rally_child",
+        "name": "rallied",
         "desc": "",
         "icon_nid": "Skills",
         "icon_index": [
@@ -104,15 +104,15 @@
         "components": [
             [
                 "stack",
-                5
+                999
+            ],
+            [
+                "SlowHeal",
+                1.0
             ],
             [
                 "lost_on_upkeep",
                 null
-            ],
-            [
-                "regeneration",
-                0.1
             ]
         ]
     },

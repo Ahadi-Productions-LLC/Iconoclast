@@ -81,17 +81,6 @@
                 "icon": "woods",
                 "level": null,
                 "menu_options": []
-            },
-            {
-                "nid": "7",
-                "name": "New Location",
-                "pos": [
-                    57,
-                    34
-                ],
-                "icon": "map_node",
-                "level": null,
-                "menu_options": []
             }
         ],
         "map_paths": {
